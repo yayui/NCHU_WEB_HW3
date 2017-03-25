@@ -1,0 +1,14 @@
+body {
+  position: absolute;
+  background-color: #FF96FF;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px dotted red;
+  padding: 10px 10px 10px 10px;
+  font-family: sans-serif;
+}
+
+#hds {
+  border: 2px dotted red;
+}

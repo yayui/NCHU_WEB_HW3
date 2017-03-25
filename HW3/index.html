@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>互動式履歷表</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./03.css">
+</head>
+
+<body>
+    
+    <form name="form1" action="User_Verification.jsp" method="post">
+    姓名-><br>
+	<input type="text" id="username" />
+    <br>
+	性別-><br>
+	<input type="radio" id="sex" value="male"> 男
+    <input type="radio" id="sex" value="female"> 女<br>
+    生日-><br>
+	<input type="text" id="birthday" />
+	<br>
+	興趣-><br>
+	<input type="checkbox" id="hobby" value="movie">電影
+    <input type="checkbox" id="hobby" value="animax">動漫
+	<input type="checkbox" id="hobby" value="sport">運動
+	<br>
+	自傳-><br>
+	<textarea id="note" cols="40" rows="10"></textarea>
+	<br><br>
+	<input type="button" name="enter" value="輸入" onClick="Function()">
+	</form>
+	
+	<p id="output"></p>
+	<table>
+     <tr>
+       <th></th> <!--姓名-->
+	   <th></th> <!--性別-->
+       <th></th> <!--生日-->
+       <th></th> <!--興趣-->
+       <th></th> <!--自傳-->
+     </tr>
+     <tr>
+       <td id="xm"></td>
+       <td id="xb"></td>
+       <td id="sr"></td>
+       <td id="xq"></td>
+       <td id="zz"></td>
+     </tr>
+    </table>
+   
+	<div id="hds">
+
+</body>
+
+<script src="./03.js"></script>
+<html>
